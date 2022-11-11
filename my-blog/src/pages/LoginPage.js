@@ -27,7 +27,7 @@ const LoginPage = () => {
             placeholder='Your email address'
             value={email}
             onChange={e => setEmail(e.target.value)}/>
-        <input 
+        <input  
             type='password'
             placeholder='your password' 
             value={password}
@@ -35,7 +35,7 @@ const LoginPage = () => {
         <button onClick={logIn}>Log In</button>
         <Link to='/create-account'>Don't have an account? Create one here!</Link>
         </>
-    );
+    );      
 }
 
 export default LoginPage;
