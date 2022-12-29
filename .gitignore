@@ -1,3 +1,4 @@
 my-blog-backend/config.json
 my-blog-backend/node_modules
 my-blog-backend/mongo-db-data
+my-blog-backend/credentials.json
